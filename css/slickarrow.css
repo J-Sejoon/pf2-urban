@@ -6,6 +6,8 @@
     z-index: 2;
     bottom: 40px;
     top: initial;
+    position: absolute;
+    font-size: 0;
 }
 .slick-prev {
     right: 78px;
