@@ -8,6 +8,7 @@
     top: initial;
     position: absolute;
     font-size: 0;
+    background-color: transparent;
 }
 .slick-prev {
     right: 78px;
