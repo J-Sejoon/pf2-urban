@@ -9,6 +9,7 @@
     position: absolute;
     font-size: 0;
     background-color: transparent;
+    cursor: pointer;
 }
 .slick-prev {
     right: 78px;
