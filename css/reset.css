@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 100%; /*기본크기로 16px*/
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder { /* WebKit browsers */
+  color:transparent;
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:transparent;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:transparent;
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:transparent;
+}
