@@ -17,12 +17,12 @@
 }
 #title .wtitleslide{
   height: 673px;
-  overflow: hidden;
 }
 #title .inner {
   position: relative;
   z-index: 1;
   color: #fff;
+  overflow: hidden;
 }
 #title .titleslide .inner{
   height: 673px;
