@@ -49,11 +49,11 @@
                // 햄버거클릭시 메뉴보이게 하기
                 $(".wrapgnb").remove();
                 $(".menuback").append("<div class='wrapgnb'></div>");
-                $("#top .gnb").appendTo(".wrapgnb").show(500,function(){
+                $("#top .gnb").clone().appendTo(".wrapgnb").show(500,function(){
                 $(".wrapgnb ul.gnb > li h2 a,.wrapgnb ul.gnb >li ul li a").toggleClass("translateY"); //메뉴등장
                 });
 
-                $(".wrapgnb .gnb").clone().appendTo(".wgnb");
+                //$(".wrapgnb .gnb").clone().appendTo(".wgnb");
                 $(".wrapgnb").css({"height":winH,"width":winW});
                 
 
